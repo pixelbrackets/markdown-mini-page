@@ -1,0 +1,13 @@
+{
+    "name": "pixelbrackets/markdown-mini-page",
+    "description": "Quickly convert Markdown into a valid HTML5 page with minimal styles",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "pixelbrackets/html5-mini-template": "^2.1",
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {"Pixelbrackets\\MarkdownMiniPage\\": "src/"}
+    }
+}
