@@ -1,0 +1,23 @@
+$markup = (new \Pixelbrackets\MarkdownMiniPage\MarkdownMiniPage())
+    ->setContent('# Status' . PHP_EOL . 'All Systems Operational')
+    ->getMarkup();
+return $markup;
+
+// Returns minimal HTML5 document markup with a stylesheet CDN
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Status</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Status">
+  <link rel="stylesheet" href="https://jsdelivr.com/gfm-stylesheet/gfm.min.css">
+</head>
+<body>
+  <h1>Status</h1>
+  <p>All Systems Operational</p>
+</body>
+</html>
+*/
